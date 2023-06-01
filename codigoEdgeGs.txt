@@ -1,0 +1,50 @@
+//************************************************************************
+// mapeando pinos e variaveis
+//************************************************************************
+
+int sensor A0 
+int bomba 8 
+int pino5V 7 
+ 
+int leiturasensor = 0;
+int Porcentagem = 0;
+
+//************************************************************************
+// Configurando pinos e perifericos
+//************************************************************************
+
+void setup() {
+pinMode(bomba, OUTPUT); 
+pinMode(pino5V, OUTPUT); 
+digitalWrite(pino5V, HIGH); 
+
+Serial.begin(9600);
+}
+ 
+void loop() {
+
+//************************************************************************
+// Leitura do sensor de umidade e conversao para porcentagem
+//************************************************************************
+
+leiturasensor = analogRead(sensor); 
+int Porcento = map(leiturasensor, 0, 1023, 0, 100); 
+ 
+Serial.print(Porcento); 
+Serial.println("%"); 
+
+//************************************************************************
+// Condicionais para caso valor de umidade seja abaixo de certo nivel,
+// A bomba de agua será iniciada para a irrigação
+//************************************************************************
+ 
+if (Porcento <= 60) { 
+Serial.println("Iniciando regagem"); 
+digitalWrite(bomba, HIGH); 
+}
+ 
+else { 
+Serial.println("Planta Irrigada ...");
+digitalWrite(bomba, LOW); 
+}
+delay (2000);
