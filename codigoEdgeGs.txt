@@ -16,6 +16,7 @@ int Porcentagem = 0;
 void setup() {
 pinMode(bomba, OUTPUT); 
 pinMode(pino5V, OUTPUT); 
+pinMode(sensor, INPUT);
 digitalWrite(pino5V, HIGH); 
 
 Serial.begin(9600);
