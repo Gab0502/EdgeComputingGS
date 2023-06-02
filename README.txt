@@ -62,3 +62,11 @@ A água liberada pelos pequenos furos no cano de PVC irá irrigar o solo, fornec
 Com esse sistema automatizado de irrigação, espera-se que as hortas comunitárias do projeto "Hortinha Amiga" sejam mais eficientes, promovendo o crescimento saudável dos vegetais e legumes cultivados
 
 
+
+Integrantes do grupo:
+Enricco Rossi de Souza Carvalho Miranda rm551717
+Felipe de Vinicius Quinalha rm98957
+Gabriel Marquez Trevisan rm99227
+Silvia Kavabata rm97650
+
+
