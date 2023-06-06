@@ -2,3 +2,5 @@ Simulação/Tinkercad:
 https://www.tinkercad.com/things/cU5FoqtVAp4
 Youtube:
 https://youtu.be/WsebfUBXcPs
+Repositorio Github:
+https://github.com/Gab0502/EdgeComputingGS
