@@ -65,7 +65,6 @@ Com esse sistema automatizado de irrigação, espera-se que as hortas comunitár
 
 Integrantes do grupo:
 Enricco Rossi de Souza Carvalho Miranda rm551717
-Felipe de Vinicius Quinalha rm98957
 Gabriel Marquez Trevisan rm99227
 Silvia Kavabata rm97650
 
